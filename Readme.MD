@@ -1,1 +1,1 @@
-projeto para apresentar minhas habilidades e currículo.
+projeto para apresentar minhas habilidades e currículo. Feito com html, css e Javascript.gi
