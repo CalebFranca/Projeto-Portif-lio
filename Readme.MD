@@ -1,1 +1,1 @@
-projeto portifólio
+projeto para apresentar minhas habilidades e currículo.
