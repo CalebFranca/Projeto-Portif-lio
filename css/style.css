@@ -6,7 +6,7 @@ header img{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #7c5e99;
+    background-color: #8870FF;
     border-bottom: 10px solid #000 ;
     padding-left: 20px;
     padding-right: 20px;
@@ -33,9 +33,9 @@ a{
 
 a::before{
     content: "";
-    color: yellow;
+    color: #524D69;
     display: inline-block;
-    background-color: #f25a70;
+    background-color:#0A11B8;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -46,7 +46,7 @@ a::before{
 
 #button {
     display: inline-block;
-    background-color: #f25a70;
+    background-color:#252769;
     height: 60px ;
     line-height: 60px;
     padding-left: 20px ;
@@ -54,4 +54,12 @@ a::before{
     box-shadow: 5px 5px 0
     #000000; 
      margin-right: 0px;
+     transition: background, font-size .5s;
+}
+
+#button:hover{
+    color: #8870FF ;
+    background-color: #0D15FF;
+    font-size: 25px;
+
 }
