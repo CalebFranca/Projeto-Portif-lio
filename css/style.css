@@ -1,6 +1,7 @@
 header img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 header{
@@ -12,6 +13,7 @@ header{
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
 nav{
@@ -27,8 +29,6 @@ a{
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px ;
-   
-
 }
 
 a::before{
@@ -39,12 +39,9 @@ a::before{
     width: 10px;
     height: 10px;
     margin-right: 10px;
-  
-
 }
 
-
-#button {
+.button {
     display: inline-block;
     background-color:#252769;
     height: 60px ;
@@ -54,12 +51,13 @@ a::before{
     box-shadow: 5px 5px 0
     #000000; 
      margin-right: 0px;
-     transition: background, font-size .5s;
+     transition:transform .6s linear;    
 }
 
-#button:hover{
+.button:hover{
+    transform: scale(1.09);
     color: #8870FF ;
-    background-color: #0D15FF;
-    font-size: 25px;
-
+    background-color: #0D15FF;  
 }
+
+
